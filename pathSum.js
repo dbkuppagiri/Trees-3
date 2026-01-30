@@ -15,10 +15,7 @@
  * If they are equal, we add a copy of the current path to the result.
  *
  * Time Complexity: O(N)
- *   - Each node is visited once.
- *
  * Space Complexity: O(N)
- *   - Due to recursion stack and path storage in the worst case.
  */
 var pathSum = function (root, targetSum) {
     const res = [];
